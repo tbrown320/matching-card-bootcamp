@@ -6,9 +6,10 @@ const figlet = require('figlet')// does something
 
 let cards = []
 
-//function that performs the flip
+//function that shuffles the cards
 function runGame() {
-    cards = ["KAT", "KAT", "Jalen Brunson", "Jalen Brunson", "Josh Hart", "Josh Hart", "Mikal Bridges", "Mikal Bridges", "OG", "OG"]
+  cards = ["KAT", "KAT", "Jalen Brunson", "Jalen Brunson", "Josh Hart", "Josh Hart", "Mikal Bridges", "Mikal Bridges", "OG", "OG"]
+  //randomize where the names appear on the board
     cards.sort(() => Math.random() - 0.5)
 }
 
