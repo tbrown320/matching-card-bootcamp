@@ -2,6 +2,9 @@
 
 ### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game
 
+### Hosted:
+- Hosted at https://match-the-knicks.onrender.com
+
 ### Features:
 
 - Match the Knicks starting 5!
@@ -16,6 +19,6 @@
 
 ### Lessons Learned
 
-- set timeout to wait a second before flipping mismatches back over
-- learned how to save multiple clicks (selections) at one time to use as params
-- executing functions on the server side and just returning a json can help organize information
+- Set timeout to wait a second before flipping mismatches back over
+- Learned how to save multiple clicks (selections) at one time to use as params
+- Executing functions on the server side and just returning a json can help organize information
